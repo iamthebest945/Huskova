@@ -1,0 +1,483 @@
+[12:32:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:32:03] [ServerMain/INFO]: Loaded 1290 recipes
+[12:32:03] [ServerMain/INFO]: Loaded 1399 advancements
+[12:32:03] [Server thread/INFO]: Starting minecraft server version 1.21
+[12:32:03] [Server thread/INFO]: Loading properties
+[12:32:03] [Server thread/INFO]: This server is running Purpur version 1.21-2266-ver/1.21@86a6543 (2024-07-18T02:18:55Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[12:32:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:32:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:32:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[12:32:05] [Server console handler/WARN]: [org.jline] Failed to load history
+java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:175) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.lambda$load$0(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.jline.reader.impl.history.DefaultHistory.load(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.attach(DefaultHistory.java:69) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:603) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.jar:1.21-2266-86a6543]
+[12:32:05] [Server thread/INFO]: Default game type: SURVIVAL
+[12:32:05] [Server thread/INFO]: Generating keypair
+[12:32:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:32:05] [Server thread/INFO]: Using epoll channel type
+[12:32:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:32:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:32:05] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.77
+[12:32:05] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[12:32:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:32:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:32:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:32:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:32:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:32:05] [Server thread/INFO]: Preparing level "world"
+[12:32:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:32:07] [Server thread/INFO]: Time elapsed: 1319 ms
+[12:32:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:32:07] [Server thread/INFO]: Time elapsed: 197 ms
+[12:32:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:32:08] [Server thread/INFO]: Time elapsed: 123 ms
+[12:32:08] [Server thread/INFO]: [spark] Enabling spark v1.10.77
+[12:32:09] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[12:32:09] [Server thread/INFO]: [spark] Starting background profiler...
+[12:32:09] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[12:32:11] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[12:32:11] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[12:32:11] [Server thread/INFO]: Running delayed init tasks
+[12:32:11] [Server thread/INFO]: Done (8.060s)! For help, type "help"
+[12:32:12] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: excellent-boating.joinmc.link
+[12:32:12] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[12:32:12] [Thread-6/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[12:32:12] [Thread-6/INFO]: playit.gg: see server console for setup URL
+[12:32:13] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/00010000000000000000000a4abe66990b4d010000000002bb17070e92ddd057c3c58c3b7909be363ed9ca4b67791b6059711b34ec35c599
+[12:32:13] [Thread-6/INFO]: playit.gg: tunnel setup
+[12:32:13] [Thread-6/INFO]: playit.gg: excellent-boating.joinmc.link
+[12:32:13] [Thread-6/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[12:32:14] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[12:32:15] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[12:32:24] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=123.31.61.35:50168, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 123, 31, 61, 35, -61, -8, 108, -120, 118, -116, -85, 8, 102, -103, 11, 88, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, 3, -116, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, -124, -17, -103, -44, 124, -5, 0, -96, 105, 2, -103, 11, 23, 49, -91, 3], tunnelServerId=5, dataCenterId=18}
+[12:32:24] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:32:24] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[12:32:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:32:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:32:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:32:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[12:32:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[12:32:24] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:32:24] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:32:25] [User Authenticator #0/INFO]: UUID of player Huskova is e2dcdd64-4338-32c2-8a44-deb764abb943
+[12:32:26] [Server thread/INFO]: Huskova joined the game
+[12:32:26] [Server thread/INFO]: Huskova[/127.0.0.1:56728] logged in with entity id 26 at ([world]-1189.454297113561, 68.0625, -809.3195618898202)
+[12:32:30] [Server thread/INFO]: Huskova issued server command: /gamemode survival
+[12:32:30] [Server thread/INFO]: [Huskova: Set own game mode to Survival Mode]
+[12:32:40] [Server thread/INFO]: Huskova issued server command: /gamemode creative
+[12:32:40] [Server thread/INFO]: [Huskova: Set own game mode to Creative Mode]
+[12:32:45] [Server thread/INFO]: Huskova issued server command: /gamemode survival
+[12:32:45] [Server thread/INFO]: [Huskova: Set own game mode to Survival Mode]
+[12:33:13] [Server thread/WARN]: Huskova moved too quickly! 8.427202992777438,-1.1142592750642422,5.978389626226431
+[12:35:44] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:48598, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, -67, -42, -71, -49, 119, 57, -85, 8, 102, -103, 12, 32, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, 4, 57, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 120, -82, -34, 5, 19, 22, -81, -121, -10, 25, 66, 51, -114, 114, 95, -83], tunnelServerId=1, dataCenterId=18}
+[12:35:44] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:35:44] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[12:35:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:35:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:35:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:35:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[12:35:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[12:35:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:35:44] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:35:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:21442, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, 83, -62, -93, 105, -31, -86, -85, 8, 102, -103, 12, 33, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, 118, -86, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 36, -49, 11, -125, -51, -91, -46, 19, -58, -104, 56, -104, -34, 85, -6, -58], tunnelServerId=4, dataCenterId=18}
+[12:35:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:35:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[12:35:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:35:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:35:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:35:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[12:35:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[12:35:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:35:45] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:35:45] [User Authenticator #1/INFO]: UUID of player xDuck_Vn is 5ced200d-7840-35fa-9b61-792fdcc18d7c
+[12:35:47] [Server thread/INFO]: xDuck_Vn joined the game
+[12:35:47] [Server thread/INFO]: xDuck_Vn[/127.0.0.1:36646] logged in with entity id 583 at ([world]-1920.3059758101826, 42.0, 224.69999998807907)
+[12:36:14] [Server thread/INFO]: xDuck_Vn has made the advancement [Eye Spy]
+[12:36:15] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:36:16] [Async Chat Thread - #0/INFO]: [Not Secure] <xDuck_Vn> gg
+[12:36:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Huskova> chờ t enchhant đồ
+[12:36:38] [Async Chat Thread - #0/INFO]: [Not Secure] <xDuck_Vn> danh luon
+[12:36:40] [Async Chat Thread - #1/INFO]: [Not Secure] <xDuck_Vn> so gi
+[12:36:45] [Async Chat Thread - #1/INFO]: [Not Secure] <xDuck_Vn> cam theo 2 giuong nhe
+[12:36:52] [Async Chat Thread - #1/INFO]: [Not Secure] <xDuck_Vn> a
+[12:36:58] [Async Chat Thread - #1/INFO]: [Not Secure] <xDuck_Vn> 1 cai t setspawn
+[12:39:12] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn
+[12:39:12] [Server thread/INFO]: [Huskova: Teleported Huskova to xDuck_Vn]
+[12:39:12] [Server thread/INFO]: Huskova has made the advancement [Eye Spy]
+[12:39:34] [Async Chat Thread - #2/INFO]: [Not Secure] <xDuck_Vn> lac me r
+[12:40:16] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:40:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Huskova> ((=
+[12:41:13] [Async Chat Thread - #2/INFO]: [Not Secure] <xDuck_Vn> clm
+[12:42:00] [Async Chat Thread - #2/INFO]: [Not Secure] <xDuck_Vn> game mode 3 di hus
+[12:42:08] [Server thread/WARN]: xDuck_Vn moved too quickly! 6.324675655744841,3.0,-7.290375063173542
+[12:43:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Huskova> hmmm
+[12:43:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Huskova> deo thay
+[12:43:16] [Server thread/INFO]: Huskova issued server command: /gamemode spectator
+[12:43:16] [Server thread/INFO]: [Huskova: Set own game mode to Spectator Mode]
+[12:43:24] [Server thread/INFO]: Huskova issued server command: /gamemode survival
+[12:43:24] [Server thread/INFO]: [Huskova: Set own game mode to Survival Mode]
+[12:43:26] [Async Chat Thread - #4/INFO]: [Not Secure] <xDuck_Vn> cho t op
+[12:43:31] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[12:43:31] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[12:43:48] [Async Chat Thread - #4/INFO]: [Not Secure] <xDuck_Vn> xin cai giuong
+[12:43:59] [Server thread/INFO]: Huskova issued server command: /give xDuck_Vn bed
+[12:44:05] [Server thread/INFO]: Huskova issued server command: /give xDuck_Vn minecraft:light_blue_bed
+[12:44:05] [Server thread/INFO]: [Huskova: Gave 1 [Light Blue Bed] to xDuck_Vn]
+[12:44:16] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:44:18] [Async Chat Thread - #4/INFO]: [Not Secure] <xDuck_Vn> xuong m ph keep nhe
+[12:44:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Huskova> m ấn lại kìa
+[12:44:28] [Async Chat Thread - #4/INFO]: [Not Secure] <Huskova> t lỡ phá
+[12:44:36] [Async Chat Thread - #4/INFO]: [Not Secure] <xDuck_Vn> nho chua hus
+[12:44:39] [Async Chat Thread - #4/INFO]: [Not Secure] <Huskova> uk
+[12:44:39] [Async Chat Thread - #5/INFO]: [Not Secure] <xDuck_Vn> nho keep
+[12:44:46] [Server thread/INFO]: Huskova has made the advancement [The End?]
+[12:44:47] [Server thread/INFO]: xDuck_Vn has made the advancement [The End?]
+[12:44:49] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[12:44:49] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[12:44:53] [Server thread/INFO]: Huskova issued server command: /gamerule keepInventory true
+[12:44:53] [Server thread/INFO]: [Huskova: Gamerule keepInventory is now set to: true]
+[12:44:57] [Async Chat Thread - #5/INFO]: [Not Secure] <xDuck_Vn> deo co block
+[12:45:23] [Async Chat Thread - #5/INFO]: [Not Secure] <Huskova> t deo có tên
+[12:45:29] [Async Chat Thread - #5/INFO]: [Not Secure] <xDuck_Vn> ne
+[12:46:02] [Async Chat Thread - #5/INFO]: [Not Secure] <Huskova> tên
+[12:46:22] [Server thread/INFO]: Huskova has made the advancement [Ol' Betsy]
+[12:46:31] [Server thread/WARN]: xDuck_Vn moved too quickly! -9.366383567812992,1.044812420399012,3.5630019654273752
+[12:47:24] [Server thread/INFO]: xDuck_Vn was doomed to fall by Ender Dragon
+[12:47:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:48540, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, -67, -100, 30, 49, -75, -86, -85, 8, 102, -103, 14, -15, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, 16, -86, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, -83, -12, -92, 55, 88, -105, -106, 119, -115, 32, -114, 27, 125, 20, -108, 31], tunnelServerId=5, dataCenterId=18}
+[12:47:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:47:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[12:47:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:47:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:47:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:47:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[12:47:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[12:47:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:47:45] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:47:46] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:7490, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, 29, 66, 84, 73, -64, -68, -85, 8, 102, -103, 14, -14, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, 43, -68, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, -38, 127, -86, -83, 71, 50, 116, -16, 91, 78, -25, 71, -38, 44, -67, 55], tunnelServerId=4, dataCenterId=18}
+[12:47:46] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:47:46] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[12:47:46] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:47:46] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:47:46] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:47:46] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[12:47:46] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[12:47:46] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:47:46] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:47:47] [User Authenticator #2/INFO]: UUID of player xDuck_Vn is 5ced200d-7840-35fa-9b61-792fdcc18d7c
+[12:47:47] [Server thread/INFO]: xDuck_Vn lost connection: You logged in from another location
+[12:47:47] [Server thread/INFO]: xDuck_Vn left the game
+[12:47:50] [Server thread/INFO]: xDuck_Vn joined the game
+[12:47:50] [Server thread/INFO]: xDuck_Vn[/127.0.0.1:43394] logged in with entity id 2904 at ([world]-1897.5, 40.0, 262.5)
+[12:48:16] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:49:35] [Server thread/INFO]: xDuck_Vn was killed by Ender Dragon using magic
+[12:50:46] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> t chỉ bik chờ nó xuống ((=
+[12:51:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> ditme m xuong
+[12:51:09] [Server thread/INFO]: xDuck_Vn was slain by Enderman
+[12:51:15] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> bruh
+[12:51:37] [Server thread/INFO]: Huskova has made the advancement [Free the End]
+[12:51:42] [Server thread/INFO]: xDuck_Vn was doomed to fall by Ender Dragon
+[12:51:43] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> lol
+[12:51:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> lấy xp ko
+[12:51:56] [Async Chat Thread - #6/INFO]: [Not Secure] <xDuck_Vn> co
+[12:52:02] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[12:52:02] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[12:52:11] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> t dc 50 level r
+[12:52:17] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> còn này
+[12:52:17] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:52:44] [Server thread/INFO]: xDuck_Vn has reached the goal [The Next Generation]
+[12:52:50] [Server thread/INFO]: Huskova has reached the goal [The Next Generation]
+[12:52:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Huskova> mượn lấy thành tựu
+[12:53:47] [Server thread/INFO]: xDuck_Vn has made the advancement [Remote Getaway]
+[12:53:52] [Server thread/INFO]: Huskova has made the advancement [Remote Getaway]
+[12:54:00] [Async Chat Thread - #8/INFO]: [Not Secure] <Huskova> mỗi thk 1 hướng
+[12:54:10] [Server thread/INFO]: Huskova issued server command: /seed
+[12:54:20] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> dnajkbkja
+[12:54:25] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> give t cay duoc
+[12:54:38] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> hus
+[12:54:41] [Async Chat Thread - #8/INFO]: [Not Secure] <Huskova> hả
+[12:54:43] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> give t cay duoc
+[12:54:47] [Async Chat Thread - #8/INFO]: [Not Secure] <Huskova> cây j
+[12:54:51] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> đuuocs
+[12:54:53] [Async Chat Thread - #8/INFO]: [Not Secure] <Huskova> à
+[12:54:57] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> d sjbkakb
+[12:55:01] [Server thread/INFO]: xDuck_Vn fell out of the world
+[12:55:05] [Server thread/INFO]: Huskova issued server command: /give xDuck_Vn minecraft:torch 64
+[12:55:05] [Server thread/INFO]: [Huskova: Gave 64 [Torch] to xDuck_Vn]
+[12:55:07] [Async Chat Thread - #8/INFO]: [Not Secure] <xDuck_Vn> tp t
+[12:55:12] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[12:55:12] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[12:56:09] [Async Chat Thread - #10/INFO]: [Not Secure] <xDuck_Vn> wxin it do an hus oi
+[12:56:17] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:56:29] [Server thread/INFO]: xDuck_Vn has made the advancement [The City at the End of the Game]
+[12:57:52] [Async Chat Thread - #12/INFO]: [Not Secure] <Huskova> -232 ~ -1816
+[12:58:23] [Server thread/INFO]: xDuck_Vn was doomed to fall
+[12:58:26] [Async Chat Thread - #12/INFO]: [Not Secure] <xDuck_Vn> loz
+[12:58:27] [Async Chat Thread - #12/INFO]: [Not Secure] <xDuck_Vn> tp t
+[12:58:33] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[12:58:33] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:00:17] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:01:59] [Server thread/INFO]: xDuck_Vn has made the advancement [Local Brewery]
+[13:02:32] [Server thread/INFO]: xDuck_Vn has reached the goal [Sky's the Limit]
+[13:02:46] [Server thread/INFO]: xDuck_Vn fell out of the world
+[13:03:00] [Async Chat Thread - #14/INFO]: [Not Secure] <xDuck_Vn> tp t lai vs
+[13:03:04] [Async Chat Thread - #14/INFO]: [Not Secure] <xDuck_Vn> die hoai
+[13:03:11] [Async Chat Thread - #14/INFO]: [Not Secure] <xDuck_Vn> hus
+[13:03:12] [Async Chat Thread - #14/INFO]: [Not Secure] <Huskova> T Ở XA CHỖ ĐÓ LẮM
+[13:03:13] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection timed out
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:340) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:294) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:269) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:425) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:03:16] [Async Chat Thread - #14/INFO]: [Not Secure] <xDuck_Vn> ke di
+[13:03:19] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:03:19] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:04:17] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:04:26] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> tp t
+[13:04:28] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> nhanh
+[13:04:29] [Server thread/INFO]: xDuck_Vn fell out of the world
+[13:04:30] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:04:30] [Server thread/INFO]: Attempt to teleport removed player xDuck_Vn restricted
+[13:04:30] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:04:33] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> @@
+[13:04:34] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:04:34] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:04:37] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> @@
+[13:04:38] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:04:38] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:04:38] [Server thread/INFO]: xDuck_Vn fell from a high place
+[13:04:42] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:04:42] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:04:55] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> t di vs
+[13:05:02] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> hssssssssssssss
+[13:05:06] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:05:06] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:05:59] [Async Chat Thread - #16/INFO]: [Not Secure] <xDuck_Vn> m con go kh
+[13:06:03] [Async Chat Thread - #16/INFO]: [Not Secure] <Huskova> HẾT R
+[13:06:14] [Server thread/INFO]: Huskova has made the advancement [The City at the End of the Game]
+[13:06:18] [Server thread/INFO]: Huskova has made the advancement [Local Brewery]
+[13:06:28] [Server thread/INFO]: Huskova has reached the goal [Sky's the Limit]
+[13:08:18] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:09:02] [Server thread/INFO]: xDuck_Vn fell from a high place
+[13:09:13] [Async Chat Thread - #18/INFO]: [Not Secure] <xDuck_Vn> hus
+[13:09:20] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:09:20] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:10:01] [Async Chat Thread - #18/INFO]: [Not Secure] <Huskova> NGON 6 VỎ SHULKER
+[13:10:04] [Server thread/INFO]: xDuck_Vn was slain by Enderman
+[13:10:08] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> bruh
+[13:10:17] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> tp t
+[13:10:19] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:10:19] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:11:13] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> co do an kh hus
+[13:11:19] [Async Chat Thread - #19/INFO]: [Not Secure] <Huskova> còn tí
+[13:11:21] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:11:21] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:11:39] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> m lay dau rong chua
+[13:11:41] [Async Chat Thread - #19/INFO]: [Not Secure] <Huskova> r
+[13:11:48] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> nau t quen lay=)
+[13:12:08] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> eo con block
+[13:12:18] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:12:31] [Async Chat Thread - #19/INFO]: [Not Secure] <Huskova> 24 ~ -2472
+[13:12:54] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> di vs nao
+[13:12:59] [Server thread/INFO]: xDuck_Vn fell from a high place
+[13:13:06] [Async Chat Thread - #19/INFO]: [Not Secure] <xDuck_Vn> hus
+[13:13:11] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:13:11] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:15:04] [Async Chat Thread - #20/INFO]: [Not Secure] <xDuck_Vn> tp t
+[13:15:10] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:15:10] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:15:57] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:15:57] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:16:00] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:16:00] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:16:00] [Async Chat Thread - #20/INFO]: [Not Secure] <xDuck_Vn> dcm
+[13:16:00] [Server thread/INFO]: xDuck_Vn fell from a high place
+[13:16:05] [Async Chat Thread - #21/INFO]: [Not Secure] <Huskova> vcl
+[13:16:06] [Async Chat Thread - #21/INFO]: [Not Secure] <Huskova> vcl
+[13:16:08] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:16:08] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:16:18] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:18:39] [Async Chat Thread - #22/INFO]: [Not Secure] <xDuck_Vn> du quan sua chua
+[13:18:49] [Async Chat Thread - #22/INFO]: [Not Secure] <Huskova> t có xẻng sửa chữa này
+[13:18:50] [Server thread/INFO]: xDuck_Vn was doomed to fall by Shulker
+[13:19:01] [Async Chat Thread - #22/INFO]: [Not Secure] <xDuck_Vn> cho t tp di hu
+[13:19:05] [Async Chat Thread - #24/INFO]: [Not Secure] <xDuck_Vn> cho nhanh
+[13:19:07] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:19:07] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:19:22] [Server thread/INFO]: xDuck_Vn fell from a high place
+[13:19:25] [Async Chat Thread - #24/INFO]: [Not Secure] <xDuck_Vn> loz ma
+[13:19:27] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:19:27] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:20:18] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:22:42] [Server thread/WARN]: Huskova moved too quickly! -6.3524113064070775,-78.0,7.13667119277693
+[13:23:09] [Server thread/WARN]: Huskova moved too quickly! 6.310301911264162,-6.0,-7.974389776574753
+[13:24:18] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:25:43] [Async Chat Thread - #25/INFO]: [Not Secure] <xDuck_Vn> hus oi
+[13:25:45] [Async Chat Thread - #25/INFO]: [Not Secure] <Huskova> hả
+[13:25:47] [Async Chat Thread - #25/INFO]: [Not Secure] <xDuck_Vn> cho it phao hoa dc kh
+[13:26:14] [Server thread/INFO]: Huskova issued server command: /give xDuck_Vn minecraft:firework_rocket 34
+[13:26:14] [Server thread/INFO]: [Huskova: Gave 34 [Firework Rocket] to xDuck_Vn]
+[13:26:40] [Async Chat Thread - #25/INFO]: [Not Secure] <xDuck_Vn> s hong cho 1 st luon di:>
+[13:27:40] [Server thread/WARN]: Huskova moved too quickly! 2.1687523266439257,-10.0,7.312085607929248
+[13:28:10] [Server thread/WARN]: Huskova moved too quickly! 5.106378243433795,-85.0,-2.49422499663865
+[13:28:10] [Server thread/INFO]: Huskova has completed the challenge [Great View From Up Here]
+[13:28:17] [Async Chat Thread - #27/INFO]: [Not Secure] <Huskova> ngon
+[13:28:19] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:28:23] [Async Chat Thread - #27/INFO]: [Not Secure] <xDuck_Vn> j v
+[13:28:28] [Async Chat Thread - #27/INFO]: [Not Secure] <Huskova> thành tựu ấy
+[13:29:02] [Async Chat Thread - #27/INFO]: [Not Secure] <Huskova> m đang ở đâu thế
+[13:29:07] [Async Chat Thread - #27/INFO]: [Not Secure] <xDuck_Vn> end city
+[13:29:40] [Async Chat Thread - #27/INFO]: [Not Secure] <Huskova> 24 -2472
+[13:29:52] [Server thread/INFO]: Huskova issued server command: /give Huskova minecraft:firework_rocket 64
+[13:29:52] [Server thread/INFO]: [Huskova: Gave 64 [Firework Rocket] to Huskova]
+[13:30:05] [Async Chat Thread - #27/INFO]: [Not Secure] <Huskova> nãy t ghi số 6 thành số 3
+[13:30:20] [Async Chat Thread - #27/INFO]: [Not Secure] <xDuck_Vn> cho them di
+[13:30:31] [Server thread/INFO]: Huskova issued server command: /give xDuck_Vn minecraft:firework_rocket 64
+[13:30:31] [Server thread/INFO]: [Huskova: Gave 64 [Firework Rocket] to xDuck_Vn]
+[13:31:46] [Async Chat Thread - #29/INFO]: [Not Secure] <Huskova> t 3 cái cánh r
+[13:32:19] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:32:44] [Async Chat Thread - #29/INFO]: [Not Secure] <Huskova> toàn đồ ngon
+[13:32:52] [Async Chat Thread - #29/INFO]: [Not Secure] <Huskova> cúp sửa chữa gia tài 3
+[13:33:13] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> cho t it do an
+[13:33:19] [Async Chat Thread - #29/INFO]: [Not Secure] <Huskova> còn ít à
+[13:33:26] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:33:26] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:33:29] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> dcm
+[13:33:31] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> dfsibdkajnjfa
+[13:33:34] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> mat
+[13:33:36] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> do
+[13:33:38] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> cua
+[13:33:39] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> t
+[13:33:43] [Async Chat Thread - #29/INFO]: [Not Secure] <Huskova> ((
+[13:33:44] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> dang de do
+[13:33:47] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[13:34:01] [Async Chat Thread - #29/INFO]: [Not Secure] <xDuck_Vn> mau ren cua t
+[13:34:20] [Async Chat Thread - #29/INFO]: [Not Secure] <Huskova> 1304 ~ -1880
+[13:35:35] [Async Chat Thread - #31/INFO]: [Not Secure] <Huskova> vcl
+[13:35:40] [Async Chat Thread - #31/INFO]: [Not Secure] <Huskova> tí lạc
+[13:36:19] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:36:21] [Async Chat Thread - #31/INFO]: [Not Secure] <Huskova> đu cái này to
+[13:38:24] [Server thread/INFO]: xDuck_Vn was doomed to fall by Shulker
+[13:38:32] [Async Chat Thread - #33/INFO]: [Not Secure] <xDuck_Vn> tp t
+[13:38:38] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:38:38] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:38:41] [Async Chat Thread - #33/INFO]: [Not Secure] <Huskova> có áo sửa chữa
+[13:40:01] [Async Chat Thread - #35/INFO]: [Not Secure] <Huskova> 1992 ~ -2504
+[13:40:19] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:40:26] [Async Chat Thread - #35/INFO]: [Not Secure] <xDuck_Vn> them phao hoa di
+[13:40:32] [Async Chat Thread - #35/INFO]: [Not Secure] <Huskova> j nhanh hết thế
+[13:41:44] [Async Chat Thread - #37/INFO]: [Not Secure] <Huskova> Ê M DIE XONG VỀ LẤY THÊM GỖ ĐI
+[13:42:29] [Server thread/INFO]: xDuck_Vn fell out of the world
+[13:42:37] [Async Chat Thread - #37/INFO]: [Not Secure] <xDuck_Vn> s kh give cho nhan
+[13:42:49] [Async Chat Thread - #37/INFO]: [Not Secure] <xDuck_Vn> tp t
+[13:42:51] [Async Chat Thread - #37/INFO]: [Not Secure] <xDuck_Vn> t co go
+[13:42:52] [Async Chat Thread - #37/INFO]: [Not Secure] <Huskova> củng tp à
+[13:42:58] [Server thread/INFO]: Huskova issued server command: /tp xDuck_Vn Huskova
+[13:42:58] [Server thread/INFO]: [Huskova: Teleported xDuck_Vn to Huskova]
+[13:43:11] [Async Chat Thread - #37/INFO]: [Not Secure] <xDuck_Vn> cho them phao hao di
+[13:43:20] [Server thread/INFO]: Huskova issued server command: /give xDuck_Vn minecraft:firework_rocket 64
+[13:43:20] [Server thread/INFO]: [Huskova: Gave 64 [Firework Rocket] to xDuck_Vn]
+[13:43:23] [Async Chat Thread - #37/INFO]: [Not Secure] <Huskova> m dùng hao vl
+[13:43:28] [Async Chat Thread - #37/INFO]: [Not Secure] <xDuck_Vn> =)
+[13:44:20] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:44:31] [Async Chat Thread - #39/INFO]: [Not Secure] <Huskova> có rương shulker lấy đồ thoải mái luôn
+[13:44:38] [Async Chat Thread - #39/INFO]: [Not Secure] <xDuck_Vn> hay lam
+[13:44:47] [Async Chat Thread - #39/INFO]: [Not Secure] <xDuck_Vn> ruong cua t
+[13:44:59] [Async Chat Thread - #39/INFO]: [Not Secure] <Huskova> 2968 ~ -3496
+[13:44:59] [Async Chat Thread - #39/INFO]: [Not Secure] <xDuck_Vn> cx co nhieu lam
+[13:45:10] [Async Chat Thread - #39/INFO]: [Not Secure] <xDuck_Vn> ma m lam mat r
+[13:45:18] [Async Chat Thread - #39/INFO]: [Not Secure] <Huskova> t eo bik
+[13:47:19] [Server thread/INFO]: xDuck_Vn fell from a high place
+[13:47:23] [Async Chat Thread - #41/INFO]: [Not Secure] <xDuck_Vn> nghi
+[13:47:26] [Async Chat Thread - #41/INFO]: [Not Secure] <xDuck_Vn> qua mur
+[13:47:27] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[13:47:27] [Server thread/INFO]: xDuck_Vn lost connection: Disconnected
+[13:47:27] [Server thread/INFO]: xDuck_Vn left the game
+[13:47:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:8914, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, 34, -46, 93, -86, -95, 43, -85, 8, 102, -103, 29, 12, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, -10, 43, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 113, -65, 32, 122, 13, -11, -48, 124, -127, 54, 87, -41, -38, -93, -115, 4], tunnelServerId=1, dataCenterId=18}
+[13:47:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:47:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[13:47:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:47:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:47:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:47:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:47:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:47:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:47:56] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:47:59] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:21501, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, 83, -3, -56, 48, -34, 76, -85, 8, 102, -103, 29, 15, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, -106, 76, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 103, -46, -74, -15, -73, -31, -86, -84, 13, -3, 115, -19, 85, 64, 12, 56], tunnelServerId=4, dataCenterId=18}
+[13:47:59] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:47:59] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[13:47:59] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:47:59] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:47:59] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:47:59] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:47:59] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:47:59] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:47:59] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:48:23] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:49:01] [Async Chat Thread - #43/INFO]: [Not Secure] <Huskova> 3896 ~ -3160
+[13:49:31] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:16194, peerAddr=118.68.109.115:21488, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 63, 66, 118, 68, 109, 115, 83, -16, 105, 101, 116, 78, -85, 8, 102, -103, 29, 107, 0, 0, 0, 0, 0, 10, 74, -66, 0, 0, 0, 0, 0, 52, 114, -84, 93, 78, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 5, 96, -65, -76, 83, -115, 83, -85, -116, 42, 2, 19, 119, -44, 108, -119], tunnelServerId=4, dataCenterId=18}
+[13:49:31] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:49:31] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[13:49:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:49:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:49:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:49:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:49:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:49:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:49:31] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:50:33] [Server thread/INFO]: Huskova issued server command: /give Huskova minecraft:firework_rocket 128
+[13:50:33] [Server thread/INFO]: [Huskova: Gave 128 [Firework Rocket] to Huskova]
+[13:52:25] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:53:11] [Server thread/INFO]: Stopping the server
+[13:53:12] [Server thread/INFO]: Stopping server
+[13:53:12] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[13:53:12] [Server thread/INFO]: [spark] Disabling spark v1.10.77
+[13:53:12] [Server thread/INFO]: Saving players
+[13:53:12] [Server thread/INFO]: Huskova lost connection: Server closed
+[13:53:12] [Server thread/INFO]: Huskova left the game
+[13:53:12] [Server thread/INFO]: Saving worlds
+[13:53:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[13:53:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[13:53:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:53:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:53:13] [Server thread/INFO]: [ChunkHolderManager] Saved 2187 block chunks, 1226 entity chunks, 1 poi chunks in world 'world_the_end' in 1.02s
+[13:53:13] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[13:53:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:53:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:53:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:53:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
